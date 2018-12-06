@@ -13,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+@Aspect
+@Component
 public class AroundAdviceAspect {
 
     private static final Logger LOG = LoggerFactory.getLogger(AroundAdviceAspect.class);
